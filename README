@@ -1,0 +1,10 @@
+mmrp1210
+
+mmrp1210 ist ein Wrapper für die Verbindung vom Danfoss PLUS+1® PVE Service Tool mit einem PCAN-USB Can-Usb-Adapter der Firma PEAK-System.
+Für den PCAN-USB wird die RP1210-Zusatzbibliothek pcanrp32.dll des Herstellers benötigt. Das PVE Service Tool ist jedoch nicht direkt kompatibel zu der
+gelieferten RP1210-Bibliothek. Unpassende Parameter beim Aufruf von RP1210_ClientConnect verhindern den Verbindungsaufbau. Die mmrp1210-Bibliothek ist eine Zwischenschicht, mit die Parameter korrigiert werden und Verbindung zwischen den beiden Programmen ermöglicht.
+
+Zum neukompilieren wird Gnu Make und MinGW benötigt.
+
+Installation: Die DLL muss in das Windows-Systemverzeichnis kopiert werden. Anschließend muss der Treiber in der RP121032.ini im Windows-Verzeichnis eingetragen werden.
+

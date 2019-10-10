@@ -1,0 +1,170 @@
+; C:\MinGW\bin\dlltool.exe --output-def mmrp1210.def --export-all-symbols mmrp1210.dll
+EXPORTS
+	".weak.__Jv_RegisterClasses.___gcc_register_frame" @ 1 DATA
+	".weak.___deregister_frame_info.___gcc_register_frame" @ 2 DATA
+	".weak.___register_frame_info.___gcc_register_frame" @ 3 DATA
+	CloseHandle@4 @ 4
+	CreateFileA@28 @ 5
+	DeleteCriticalSection@4 @ 6
+	DllMainCRTStartup@12 @ 7
+	EnterCriticalSection@4 @ 8
+	FreeLibrary@4 @ 9
+	GetLastError@0 @ 10
+	GetModuleHandleA@4 @ 11
+	GetProcAddress@8 @ 12
+	InitializeCriticalSection@4 @ 13
+	LeaveCriticalSection@4 @ 14
+	LoadLibraryA@4 @ 15
+	MessageBoxA@16 @ 16
+	RP1210_ClientConnect@24 @ 17
+	RP1210_ClientDisconnect@4 @ 18
+	RP1210_GetErrorMsg@8 @ 19
+	RP1210_GetHardwareStatus@16 @ 20
+	RP1210_ReadMessage@16 @ 21
+	RP1210_ReadVersion@16 @ 22
+	RP1210_SendCommand@16 @ 23
+	RP1210_SendMessage@20 @ 24
+	TlsGetValue@4 @ 25
+	VirtualProtect@16 @ 26
+	VirtualQuery@12 @ 27
+	WriteFile@20 @ 28
+	_CRT_MT @ 29 DATA
+	_CTOR_LIST__ @ 30 DATA
+	_DTOR_LIST__ @ 31 DATA
+	_IAT_end__ @ 32 DATA
+	_IAT_start__ @ 33 DATA
+	_RUNTIME_PSEUDO_RELOC_LIST_END__ @ 34 DATA
+	_RUNTIME_PSEUDO_RELOC_LIST__ @ 35 DATA
+	_Unwind_Resume @ 36
+	__CTOR_LIST__ @ 37 DATA
+	__DTOR_LIST__ @ 38 DATA
+	__ImageBase @ 39 DATA
+	__RUNTIME_PSEUDO_RELOC_LIST_END__ @ 40 DATA
+	__RUNTIME_PSEUDO_RELOC_LIST__ @ 41 DATA
+	___w64_mingwthr_add_key_dtor @ 42
+	___w64_mingwthr_remove_key_dtor @ 43
+	__crt_xc_end__ @ 44 DATA
+	__crt_xc_start__ @ 45 DATA
+	__crt_xi_end__ @ 46 DATA
+	__crt_xi_start__ @ 47 DATA
+	__crt_xl_start__ @ 48 DATA
+	__crt_xp_end__ @ 49 DATA
+	__crt_xp_start__ @ 50 DATA
+	__crt_xt_end__ @ 51 DATA
+	__crt_xt_start__ @ 52 DATA
+	__deregister_frame_info @ 53
+	__dllonexit @ 54
+	__do_global_ctors @ 55
+	__do_global_dtors @ 56
+	__dyn_tls_init@12 @ 57
+	__dyn_tls_init_callback @ 58 DATA
+	__gcc_deregister_frame @ 59
+	__gcc_register_frame @ 60
+	__gxx_personality_v0 @ 61
+	__main @ 62
+	__mingw_TLScallback @ 63
+	__register_frame_info @ 64
+	__tlregdtor @ 65
+	__tls_end__ @ 66 DATA
+	__tls_start__ @ 67 DATA
+	__xl_a @ 68 DATA
+	__xl_c @ 69 DATA
+	__xl_d @ 70 DATA
+	__xl_z @ 71 DATA
+	_bss_end__ @ 72 DATA
+	_bss_start__ @ 73 DATA
+	_data_end__ @ 74 DATA
+	_data_start__ @ 75 DATA
+	_dll__ @ 76 DATA
+	_dll_characteristics__ @ 77 DATA
+	_errno @ 78
+	_file_alignment__ @ 79 DATA
+	_head_libgcc_s_dw2_1_dll @ 80 DATA
+	_head_libkernel32_a @ 81 DATA
+	_head_libmsvcrt_a @ 82 DATA
+	_head_libstdc___6_dll @ 83 DATA
+	_head_libuser32_a @ 84 DATA
+	_image_base__ @ 85 DATA
+	_imp__CloseHandle@4 @ 86 DATA
+	_imp__CreateFileA@28 @ 87 DATA
+	_imp__DeleteCriticalSection@4 @ 88 DATA
+	_imp__EnterCriticalSection@4 @ 89 DATA
+	_imp__FreeLibrary@4 @ 90 DATA
+	_imp__GetLastError@0 @ 91 DATA
+	_imp__GetModuleHandleA@4 @ 92 DATA
+	_imp__GetProcAddress@8 @ 93 DATA
+	_imp__InitializeCriticalSection@4 @ 94 DATA
+	_imp__LeaveCriticalSection@4 @ 95 DATA
+	_imp__LoadLibraryA@4 @ 96 DATA
+	_imp__MessageBoxA@16 @ 97 DATA
+	_imp__TlsGetValue@4 @ 98 DATA
+	_imp__VirtualProtect@16 @ 99 DATA
+	_imp__VirtualQuery@12 @ 100 DATA
+	_imp__WriteFile@20 @ 101 DATA
+	_imp___Unwind_Resume @ 102 DATA
+	_imp____deregister_frame_info @ 103 DATA
+	_imp____dllonexit @ 104 DATA
+	_imp____gxx_personality_v0 @ 105 DATA
+	_imp____register_frame_info @ 106 DATA
+	_imp___errno @ 107 DATA
+	_imp___iob @ 108 DATA
+	_imp__abort @ 109 DATA
+	_imp__calloc @ 110 DATA
+	_imp__fflush @ 111 DATA
+	_imp__free @ 112 DATA
+	_imp__fwrite @ 113 DATA
+	_imp__malloc @ 114 DATA
+	_imp__memcpy @ 115 DATA
+	_imp__sprintf @ 116 DATA
+	_imp__vfprintf @ 117 DATA
+	_libkernel32_a_iname @ 118 DATA
+	_libmsvcrt_a_iname @ 119 DATA
+	_libuser32_a_iname @ 120 DATA
+	_loader_flags__ @ 121 DATA
+	_major_image_version__ @ 122 DATA
+	_major_os_version__ @ 123 DATA
+	_major_subsystem_version__ @ 124 DATA
+	_minor_image_version__ @ 125 DATA
+	_minor_os_version__ @ 126 DATA
+	_minor_subsystem_version__ @ 127 DATA
+	_onexit @ 128
+	_pei386_runtime_relocator @ 129
+	_rt_psrelocs_end @ 130 DATA
+	_rt_psrelocs_size @ 131 DATA
+	_rt_psrelocs_start @ 132 DATA
+	_section_alignment__ @ 133 DATA
+	_size_of_heap_commit__ @ 134 DATA
+	_size_of_heap_reserve__ @ 135 DATA
+	_size_of_stack_commit__ @ 136 DATA
+	_size_of_stack_reserve__ @ 137 DATA
+	_subsystem__ @ 138 DATA
+	_tls_end @ 139 DATA
+	_tls_index @ 140 DATA
+	_tls_start @ 141 DATA
+	_tls_used @ 142 DATA
+	abort @ 143
+	atexit @ 144
+	calloc @ 145
+	fflush @ 146
+	free @ 147
+	fwrite @ 148
+	hDebugFile @ 149 DATA
+	hPCAN1210DLL @ 150 DATA
+	libgcc_s_dw2_1_dll_iname @ 151 DATA
+	libstdc___6_dll_iname @ 152 DATA
+	malloc @ 153
+	memcpy @ 154
+	mingw_initltsdrot_force @ 155 DATA
+	mingw_initltsdyn_force @ 156 DATA
+	mingw_initltssuo_force @ 157 DATA
+	pRP1210_ClientConnect @ 158 DATA
+	pRP1210_ClientDisconnect @ 159 DATA
+	pRP1210_GetErrorMsg @ 160 DATA
+	pRP1210_GetHardwareStatus @ 161 DATA
+	pRP1210_ReadMessage @ 162 DATA
+	pRP1210_ReadVersion @ 163 DATA
+	pRP1210_SendCommand @ 164 DATA
+	pRP1210_SendMessage @ 165 DATA
+	sMsgBuf @ 166 DATA
+	sprintf @ 167
+	vfprintf @ 168
